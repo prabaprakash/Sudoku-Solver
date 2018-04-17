@@ -20,3 +20,6 @@ def hello():
             return jsonify(solution = "No tokens are received", isSolved =  False)
     else:
        return jsonify(requests.get('http://puzzles.makkhichoose.com/sudoku/generate').json())
+
+if __name__ == '__main__':
+    app.run(host = '0.0.0.0',port=5000)
