@@ -1,5 +1,5 @@
 # Sudoku Sovler
-  solve the sudoku within 30 seconds
+  solve the sudoku puzzle within 30 seconds
 # Sudoku Generator
 1. Run Flask Web App
 ```
